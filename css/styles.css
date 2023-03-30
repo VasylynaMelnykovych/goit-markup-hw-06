@@ -462,6 +462,10 @@ button {
   padding-left: 16px;
 }
 
+input[type="email"].subscribe-input::placeholder {
+  color: var(--primary-white-color);
+}
+
 .subscribe-btn {
   display: flex;
   gap: 16px;
@@ -677,9 +681,27 @@ button {
 }
 
 .modal-submit-btn {
+  display: block;
+  width: 169px;
+  height: 56px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 16px 32px;
+
   color: var(--primary-white-color);
   background-color: var(--accent-color);
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border: none;
   border-radius: 4px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal-submit-btn:hover,
+.modal-submit-btn:focus {
+  background-color: var(--pointing-state-color);
 }
 /* ================== /MODAL WINDOW =================== */ ;
