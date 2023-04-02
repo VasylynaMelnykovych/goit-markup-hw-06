@@ -427,7 +427,7 @@ button {
   width: 44px;
   height: 44px;
   border-radius: 50%;
-  background-color: rgba(255, 255, 255, 0.1);
+  background-color: var(--accent-color);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -792,4 +792,4 @@ input[type="email"].subscribe-input::placeholder {
 .modal-submit-btn:focus {
   background-color: var(--pointing-state-color);
 }
-/* ================== /MODAL WINDOW =================== */ ;
+/* ================== /MODAL WINDOW =================== */ 
